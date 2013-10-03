@@ -11,5 +11,5 @@ dofile("lib/LuaXML/handler.lua")
 --MX: seconds to delay response
 --ST: search target 
 
-local function sendDiscovery(239.255.255.250:1900 headers)
+local function sendDiscovery(239.255.255.250:1900, headers)
 	http.request(239.255.255.250:1900)

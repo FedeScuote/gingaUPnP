@@ -1,1 +1,1 @@
-require "luaSocket"module "httpmu"version = "NCLuaHTTP/0.9.9"local function send(url, headers, ports)	udp= socket.udp()	udp:sendto(headers, url, ports)
+require "luaSocket"module "httpmu"version = "NCLuaHTTP/0.9.9"local function send(url, headers, ports)	udp= socket.udp()	udp:sendto(headers, url, ports)
